@@ -3,29 +3,29 @@
   2-General Style
   3-Sections
     3.0 header section
-    3.1 Home Section 
-    3.2 Discover Section 
-    3.3 Services & Design Sections
-    3.4 numbers Section 
-    3.5 team Section
-    3.6 pricing Section
-    3.7 request Section
-    3.8 blog Section
-    3.9 contact Section
-    3.10 footer
+    3.1 Home_slider Section 
+    3.2 features Section 
+    3.3 categories section
+    3.4 banners Section 
+    3.5 deals Section
+    3.6 offers Section
+    3.7 top_week Section
+    3.8 brands Section
 */
 
 /* 1-Common Styles */
 /*
-    -mycontainer
+    -container
     -opacity hover
-    -background hover
-    -blue hover
-    -section header
+    -overlay hover
+    -section title
     -section padding
-    -description style
+    -product style
     -colors
-    -btn
+    -bg blue & text whi hover
+    -text blue hover
+    -owl arrows 
+    -menu
 */
 
 
@@ -319,9 +319,6 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 
 
 
-
-
-
 .section_title{
     text-transform: capitalize;
     font-weight: 500;
@@ -329,7 +326,7 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
     margin-bottom: 30px;
 }
 
-/* Header Style */
+/* Lg_Header Style */
 
 /* Top Header */
 
@@ -497,12 +494,6 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 
 
 
-
-
-
-
-
-
 /* Bottom header */
 
 .lg_header .bottom_header_content{
@@ -628,9 +619,12 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 
 
 
+/* ///////////////////////////////////////////////////////////////////////// */
 
+/* Sm_Header style */
 
-/* /////////////////////////////////////// */
+/* top header */
+
 .sm_header{
     display: none;
 }
@@ -683,6 +677,8 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
+
+/* bottom header */
 
 .sm_header .bottom_header{
     padding: 10px 0;
@@ -787,7 +783,8 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 
 
 
-/* Features seaction */
+/* 3.2 Features seaction */
+
 .features .features_item:hover .features_item_content_img{
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
@@ -827,7 +824,7 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
     }
 }
 
-/* Categories section */
+/* 3.3 Categories section */
 
 .categories{
     background-color: var(--col-bg);
@@ -929,7 +926,7 @@ main .categories .owl-carousel.owl-theme .owl-nav .owl-next, main .brands .owl-c
 }
 
 
-/* Banners section */
+/* 3.4 Banners section */
 
 .banners .banners_item{
     position: relative;
@@ -966,7 +963,7 @@ main .categories .owl-carousel.owl-theme .owl-nav .owl-next, main .brands .owl-c
 }
 
 
-/* Deals section */
+/* 3.5 Deals section */
 
 .deals{
     padding-bottom: 80px;
@@ -1082,7 +1079,7 @@ main .deals .owl-carousel.owl-theme .owl-nav .owl-next, main .offers .owl-carous
 
 
 
-/* Offers section */
+/* 3.6 Offers section */
 .offers{
     background-color: var(--col-bg);
 }
@@ -1104,7 +1101,7 @@ main .deals .owl-carousel.owl-theme .owl-nav .owl-next, main .offers .owl-carous
 
 
 
-/* Top_week section */
+/* 3.7 Top_week section */
 .top_week .product_content{
     margin-bottom: 20px;
 }
@@ -1141,7 +1138,7 @@ main .deals .owl-carousel.owl-theme .owl-nav .owl-next, main .offers .owl-carous
 }
 
 
-/* Brands section*/
+/* 3.8 Brands section*/
 
 .brands{
     background-color: var(--col-bg);
