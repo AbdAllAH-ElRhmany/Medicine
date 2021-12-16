@@ -156,6 +156,26 @@ $('.brands .owl-carousel').owlCarousel({
 });
 
 
+
+
+$('.blog_item .owl-carousel').owlCarousel({
+    loop: false,
+    nav: true,
+	navText: ['<span><i class="fas fa-chevron-left"></i></span>', '<span><i class="fas fa-chevron-right"></i></span>' ],
+    items: 1,
+    margin: 0,
+    stagePadding: 0,
+    smartSpeed: 1000,
+    autoplay: false,
+    dots: false,
+    autoHeight: false,
+});
+
+
+
+
+
+
 // offer counter Section At home Page
 
 
