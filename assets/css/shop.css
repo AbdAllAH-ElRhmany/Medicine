@@ -4,7 +4,8 @@
   3-Sections
     3.0 header section
     3.1 director Section 
-    3.2 footer style
+    3.2 news style
+    3.3 footer style
 */
 
 /* 1-Common Styles */
@@ -18,7 +19,6 @@
     -colors
     -bg blue & text whi hover
     -text blue hover
-    -owl arrows 
     -menu
 */
 
@@ -1364,6 +1364,58 @@ ul{
 
 
 
+/* 3.2 news section */
+
+.news{
+    background-color: var(--col-main);
+    padding: 30px 0;
+    color: #fff;
+}
+.news .news_title{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.news .news_desc{
+    font-size: 18px;
+}
+
+.subscripe_form{
+    position: relative;
+}
+.subscripe_form input[type="text"]{
+    width: 100%;
+    padding: 5px 15px;
+    height: 50px;
+    border-radius: 25px;
+    color: var(--col-gray-d);
+    border: 0;
+    font-size: 14px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.subscripe_form button[type="submit"]{
+    padding: 5px 25px;
+    height: 50px;
+    border-radius: 0 25px 25px 0;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background-color: var(--col-black);
+    font-size: 14px;
+    -webkit-border-radius: 0 25px 25px 0;
+    -moz-border-radius: 0 25px 25px 0;
+    -ms-border-radius: 0 25px 25px 0;
+    -o-border-radius: 0 25px 25px 0;
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 992px) {
+    .subscripe_form{
+        margin-top: 20px;
+    }
+}
 
 
 
@@ -1376,7 +1428,8 @@ ul{
 
 
 
-/* 3.2 footer style */
+
+/* 3.3 footer style */
 
 .top_footer{
     padding: 55px 0;
