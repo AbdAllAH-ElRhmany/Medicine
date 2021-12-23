@@ -53,7 +53,6 @@
 body{
     font-family: 'Rubik', sans-serif;
     color: var(--col-black);
-    height: 4000px;
 }
 h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
@@ -235,9 +234,7 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
     position: relative;
     background-color: #fff;
 }
-.product_content a{
-    display: block;
-}
+
 .product_content .item_img img{
     max-width: 100%;
     margin-bottom: 10px;
@@ -246,6 +243,11 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
     text-transform: uppercase;
     font-size: 13px;
     margin-bottom: 5px;
+    display: inline-block;
+    color: var(--col-gray-d);
+}
+.product_content .item_cat:hover{
+    color: var(--col-main);
 }
 .product_content .item_name{
     font-size: 14px;
@@ -254,6 +256,7 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 .product_content .item_rate{
     font-size: 12px;
     margin-bottom: 15px;
+    padding-top: 15px;
 }
 .product_content .item_rate i.active{
     color: rgb(252, 209, 19);
@@ -465,7 +468,7 @@ main .owl-carousel.owl-theme .owl-nav button:hover{
 .top_header_content .user_options .user_options_item i{
     font-size: 30px;
 }
-.top_header_content .user_options .user_options_item span{
+.top_header_content .user_options .user_options_item > span{
     display: block;
     width: 18px;
     height: 18px;
@@ -1136,15 +1139,19 @@ main .deals .owl-carousel.owl-theme .owl-nav .owl-next, main .offers .owl-carous
     margin-bottom: 20px;
 }
 .top_week .product_content .item_name{
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.top_week .product_content .item_rate{
+    border-top: 1px solid #ccc;
+
 }
 .top_week .product_content .item_options{
     margin-top: 10px;
     position: absolute;
-    bottom: 30px;
+    bottom: 0px;
     height: 60px;
-    left: 20px;
+    left: 0px;
     width: calc(100% - 40px);
     background-color: #fff;
     opacity: 0;
@@ -1162,8 +1169,8 @@ main .deals .owl-carousel.owl-theme .owl-nav .owl-next, main .offers .owl-carous
 
 .top_week .product_content  .option.first{
     position: absolute;
-    right: 20px;
-    bottom: 45px;
+    right: 0px;
+    bottom: 15px;
     z-index: 10;
 }
 
